@@ -79,7 +79,7 @@ public class Controller {
                             OBJ = splitString[1];
                             char[] ch = new char[OBJ.length()];
                             char[] ch2 = new char[OBJ.length()];
-                            for (int i = 0; i < 15; i++) {
+                            for (int i = 0; i < OBJ.length(); i++) {
                                 ch[i] = OBJ.charAt(i);
                                 for(int j=0;j<ch1.length;j++){
                                     if(ch[i] == ch1[j]){
@@ -94,7 +94,7 @@ public class Controller {
                                 OBJ = splitString[1];
                                 char[] ch = new char[OBJ.length()];
                                 char[] ch2 = new char[OBJ.length()];
-                                for (int i = 0; i < 15; i++) {
+                                for (int i = 0; i < ch1.length; i++) {
                                     ch[i] = OBJ.charAt(i);
                                     for(int j=0;j<ch1.length;j++){
                                         if(ch[i] == ch1[j]){
