@@ -1,5 +1,6 @@
 # WebDataTracker
 Application for web scraping and data tracking
+
 *use it to get price from e-shop and to track that price
 
 
